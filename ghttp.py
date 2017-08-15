@@ -63,7 +63,7 @@ class GHTTPServer(object):
     def __init__(self, config=None):
         self.headers = {}
         self.set_config(config)
-        self.git = Git("/Users/xtao/gentoo/usr/bin/git")
+        self.git = Git("/usr/bin/git")
         self.RE_SERVICES = []
 
     def set_config(self, config):
